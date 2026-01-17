@@ -1,6 +1,6 @@
 /* ==========================================================================
    EVALUACIÓN SUMATIVA SEMANA 2 - BLOQUE PL/SQL ANÓNIMO
-   AUTOR: [Tu Nombre]
+   AUTOR: Alejandro Venegas
    DESCRIPCIÓN: Proceso de generación automática de credenciales (Usuario y Clave)
                 para empleados de Truck Rental, con lógica de seguridad y
                 validación transaccional.
@@ -159,4 +159,5 @@ END;
 /
 
 /* VALIDACIÓN FINAL DE RESULTADOS */
+
 SELECT * FROM USUARIO_CLAVE ORDER BY ID_EMP ASC;
